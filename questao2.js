@@ -1,14 +1,19 @@
-let nome = "2 5"
-const nomeLista = nome.split(" ");
+let datas = "2 5"
+const datasLista = datas.split(" ");
 
 
-nomeLista.forEach((element,i) => {
-    nomeLista[i] = parseInt(element);
+datasLista.forEach((element,i) => {
+    datasLista[i] = parseInt(element);
 });
 
 
-let entrega = nomeLista[0];
-let final = nomeLista[1];
+let entrega = datasLista[0];
+let final = datasLista[1];
+
+
+//Nao entendi quando eu deveria imprimir "Eu odeio o prof. Florovsky!". Qual seria a condição caso
+// para o aluno nao receber orientação?
+
 
 if(final - entrega < 3)
     if(final + 2 >= 24)
